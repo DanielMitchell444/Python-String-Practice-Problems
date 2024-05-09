@@ -46,7 +46,8 @@ hello_name('Alice') → 'Hello Alice!'
 hello_name('X') → 'Hello X!'
 """
 
-
+def hello_name(name):
+  print("hello")
 """
 Practice Problem 4:
 we have two monkeys, a and b, and the parameters a_smile and b_smile indicate if each is smiling. We are in trouble if they are both smiling or if neither of them is smiling. Return True if we are in trouble.
@@ -56,7 +57,8 @@ monkey_trouble(True, True) → True
 monkey_trouble(False, False) → True
 monkey_trouble(True, False) → False
 """
-
+def monkey_trouble(a_smile, b_smile):
+  print("hello")
 """
 PRACTICE PROBLEM 5:
 
@@ -67,7 +69,8 @@ without_end('Hello') → 'ell'
 without_end('java') → 'av'
 without_end('coding') → 'odin'
 """
-
+def without_end(str):
+  print("Hello")
 """
 Practice Problem 6:
 The parameter weekday is True if it is a weekday, and the parameter vacation is True if we are on vacation. We sleep in if it is not a weekday or we're on vacation. Return True if we sleep in.
@@ -77,6 +80,8 @@ sleep_in(False, False) → True
 sleep_in(True, False) → False
 sleep_in(False, True) → True
 """
+def sleep_in(weekday, vacation):
+  print("Hello")
 
 ##After you complete this, you will take a 5 minute break and
 ##then we will be moving onto more string methods.
